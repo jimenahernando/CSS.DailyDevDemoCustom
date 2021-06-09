@@ -58,7 +58,7 @@ li:hover a {
 }
 
 .logo span {
-  font-size: 1.125rem;
+  font-size: 1.275rem;
   font-weight: 700;
 }
 
@@ -208,6 +208,7 @@ nav {
   position: relative;
 }
 
+
 /* flags */
 .card:hover::after {
   font-family: "Font Awesome 5 Free";
@@ -230,8 +231,8 @@ nav {
   left: 1.5rem;
   border-radius: 0.5rem 0.5rem 0 0;
   padding: 0.25rem 0.5rem;
-  opacity: 1;
   z-index: -1;
+  transition: top 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .card:nth-child(8):hover::before,
@@ -413,21 +414,21 @@ nav {
 
 /* 9th card */
 .card:nth-child(9) .img {
-  background: url(https://images.unsplash.com/photo-1545092724-ebd263517948?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGtlYmFifGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background: url(https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3VzaGl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
   background-size: cover;
   background-position: center;
 }
 .card:nth-child(9) .site {
-  background: url(https://images.unsplash.com/photo-1545092724-ebd263517948?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGtlYmFifGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background: url(https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3VzaGl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: bottom center;
   background-size: cover;
-  background-position: center;
 }
 
 /* 10th card */
 .card:nth-child(10) .img {
   background: url(https://images.unsplash.com/photo-1588413336009-1f4219f2d5dd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fGZydWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-  background-position: center;
   background-size: cover;
+  background-position: center;
 }
 .card:nth-child(10) .site {
   background: url(https://images.unsplash.com/photo-1588413336009-1f4219f2d5dd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fGZydWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
