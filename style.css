@@ -206,6 +206,8 @@ nav {
   border-radius: 1rem;
   padding: 0.5rem;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -274,6 +276,7 @@ nav {
   margin-bottom: 0.5rem;
   font-size: 0.8125rem;
   line-height: 1.125rem;
+  flex-grow: 1;
 }
 
 .grid .card .img {
